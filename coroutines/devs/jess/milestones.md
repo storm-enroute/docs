@@ -17,13 +17,14 @@ This GSoC project has five stages. Below, each stage is listed along with its su
 ## Async/Await
 #### Allotted Time: 2 Weeks
 - Write a design doc that contains a plan for the implementation of Async/Await. Make sure it pays special attention to failure handling (2 days)
-- Implement Async/Await. (6 days) (**Note**: More details will be added here when they are planned out via the design doc)
+- Add and document motivating examples (1 day)
+- Implement Async/Await. (5 days) (**Note**: More details will be added here when they are planned out via the design doc)
 - Port remaining example and test code from Scala Async into Coroutines (2 days)
 
 ## Enumerators
 #### Allotted Time: 3 Weeks
 - Write a design doc, including descriptions of any basic data structures to implement (2 days)
-- Create and document examples for when enumerators are better than iterators (2 days)
+- Create and document motivating examples for when enumerators are better than iterators (2 days)
 - Implement basic enumerators using coroutines (3 days) (**Note**: More details will be added here when they are planned out via the design doc)
 - Specialize enumerators (2 days)
 - Implement data structures described in the design doc (2 days)
@@ -33,7 +34,7 @@ This GSoC project has five stages. Below, each stage is listed along with its su
 ## Continuations
 #### Allotted Time: 3 Weeks
 - Write a deisgn doc (2 days)
-- Create and document example use-cases for continuations. Explain why, in some situations, they are better than coroutines (2 days)
+- Create and document motivating examples for continuations. Explain why, in some situations, they are better than coroutines (2 days)
 - Implement continuations as described in the design doc (5 days) (**Note**: More details will be added here when they are planned out via the design doc)
 - Add and document exhaustive tests (3 days)
 - Add boxing tests (1 day)
@@ -41,3 +42,8 @@ This GSoC project has five stages. Below, each stage is listed along with its su
 
 ## Event-Driven Coroutines
 #### Allotted Time: 2 Weeks
+- Write a design doc (2 days)
+- Add motiviating examples from [this document](https://infoscience.epfl.ch/record/176887/files/DeprecatingObservers2012.pdf), explaining why event-driven coroutines lead to cleaner code than the observer pattern does (2 days)
+- Implement a tool that converts procedural code to a callback-based equivalent (3 days)
+- Add correctness tests (2 days)
+- Add performance tests (1 day)
