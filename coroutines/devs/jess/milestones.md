@@ -25,10 +25,10 @@ This GSoC project has five stages. Below, each stage is listed along with its su
 #### Allotted Time: 3 Weeks
 - Write a design doc, including descriptions of any basic data structures to implement (2 days)
 - Create and document motivating examples for when enumerators are better than iterators. These examples will also serve as unit tests (2 days)
+- Add boxing and specialization tests in the style of Scalameter (2 days)
 - Implement basic enumerators using coroutines (3 days) (**Note**: More details will be added here when they are planned out via the design doc)
 - Specialize enumerators (2 days)
 - Implement data structures described in the design doc (2 days)
-- Add boxing tests (2 days)
 - Add performance benchmarks (2 days)
 
 ## Continuations
