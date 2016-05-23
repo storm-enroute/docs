@@ -33,9 +33,10 @@ This GSoC project has five stages. Below, each stage is listed along with its su
 
 ## Continuations
 #### Allotted Time: 3 Weeks
-- Write a deisgn doc (2 days)
+- Write a design doc (2 days)
+- Read this [Wiki Page](https://en.wikipedia.org/wiki/Delimited_continuation) and [this article](http://users.eecs.northwestern.edu/~clk800/rand-test-study/_ifpdcbatsc/ifpdcbatsc-2009-10-8-12-02-00.pdf) (1 day)
 - Create and document motivating examples for continuations. Explain why, in some situations, continuations are better than coroutines. These examples will also serve as unit tests (2 days)
-- Implement continuations as described in the design doc (5 days) (**Note**: More details will be added here when they are planned out via the design doc)
+- Implement continuations as described in the design doc (4 days) (**Note**: More details will be added here when they are planned out via the design doc)
 - Add and document exhaustive tests (3 days)
 - Add boxing tests (1 day)
 - Add performance benchmarks (2 days)
